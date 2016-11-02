@@ -24,7 +24,11 @@
               </block>
             </statement>
             <next>
-              <block type="movement_stop" id="135"></block>
+              <block type="movement_stop" id="135">
+                <next>
+                  <block type="movement_right" id="153"></block>
+                </next>
+              </block>
             </next>
           </block>
         </next>

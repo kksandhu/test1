@@ -7,17 +7,27 @@
             <field name="NUM">500</field>
           </block>
         </value>
-      </block>
-    </next>
-  </block>
-  <block type="movement_forward" id="14" x="261" y="96">
-    <next>
-      <block type="robot_delay" id="25" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="41">
-            <field name="NUM">500</field>
+        <next>
+          <block type="controls_repeat" id="95" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="102">
+                <field name="NUM">20</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="robot_delay" id="25" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="41">
+                    <field name="NUM">500</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="movement_stop" id="135"></block>
+            </next>
           </block>
-        </value>
+        </next>
       </block>
     </next>
   </block>

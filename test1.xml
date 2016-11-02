@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="1" x="479" y="191">
+  <block type="movement_forward" id="1" x="231" y="-4">
     <next>
       <block type="robot_delay" id="2" inline="true">
         <value name="DELAY">
@@ -35,7 +35,42 @@
                           </block>
                         </value>
                         <next>
-                          <block type="movement_stop" id="214"></block>
+                          <block type="movement_stop" id="214">
+                            <next>
+                              <block type="movement_forward" id="224">
+                                <next>
+                                  <block type="robot_delay" id="254" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="261">
+                                        <field name="NUM">500</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="controls_repeat" id="277" inline="true">
+                                        <value name="TIMES">
+                                          <block type="math_number" id="284">
+                                            <field name="NUM">20</field>
+                                          </block>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="robot_delay" id="316" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="323">
+                                                <field name="NUM">500</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="movement_right" id="356"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
                         </next>
                       </block>
                     </next>

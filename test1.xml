@@ -7,6 +7,18 @@
             <field name="NUM">500</field>
           </block>
         </value>
+        <next>
+          <block type="controls_repeat" id="141" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="157">
+                <field name="NUM">20</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_stop" id="123"></block>
+            </next>
+          </block>
+        </next>
       </block>
     </next>
   </block>

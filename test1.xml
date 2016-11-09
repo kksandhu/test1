@@ -35,7 +35,9 @@
                           </block>
                         </value>
                         <next>
-                          <block type="movement_stop" id="56"></block>
+                          <block type="oled_color" id="323">
+                            <field name="OBJECT">GREEN</field>
+                          </block>
                         </next>
                       </block>
                     </next>

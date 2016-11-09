@@ -34,6 +34,9 @@
                             <field name="NUM">350</field>
                           </block>
                         </value>
+                        <next>
+                          <block type="movement_stop" id="56"></block>
+                        </next>
                       </block>
                     </next>
                   </block>

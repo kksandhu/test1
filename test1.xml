@@ -34,11 +34,6 @@
                             <field name="NUM">1300</field>
                           </block>
                         </value>
-                        <next>
-                          <block type="oled_color" id="323">
-                            <field name="OBJECT">GREEN</field>
-                          </block>
-                        </next>
                       </block>
                     </next>
                   </block>

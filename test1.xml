@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="681" y="83">
+  <block type="controls_repeat" id="1" inline="true" x="724" y="132">
     <value name="TIMES">
       <block type="math_number" id="2">
         <field name="NUM">2</field>
@@ -11,7 +11,7 @@
           <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
               <block type="math_number" id="5">
-                <field name="NUM">1480</field>
+                <field name="NUM">1360</field>
               </block>
             </value>
             <next>
